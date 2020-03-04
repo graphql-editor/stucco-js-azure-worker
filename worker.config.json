@@ -1,0 +1,8 @@
+{
+    "description":{
+        "language":"stucco-js",
+        "extensions":[".js"],
+        "defaultExecutablePath":"node",
+        "defaultWorkerPath":"dist/src/nodejsWorker.js"
+    }
+}
