@@ -1,0 +1,11 @@
+#!/bin/bash
+
+REPO=gqleditor/stucco-js-azure-worker
+for node_version in node10 node12; do
+	imageRef="${REPO}:${node_version}"
+	if [ "${DOCKER_TAG}" != "latest" ]; then
+		imageRef="${imageRef}-${DOCKER_TAG}"
+	fi
+	docker build -t "${imageRef}" -f Dockerfile.${node_version} .
+	docker push "${imageRef}"
+done
