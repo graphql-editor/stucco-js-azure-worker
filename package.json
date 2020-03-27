@@ -41,7 +41,7 @@
     "azure-functions-nodejs-worker": "git+https://github.com/graphql-editor/azure-functions-nodejs-worker.git#prepare-for-package-json",
     "grpc": "^1.24.2",
     "minimist": "^1.2.0",
-    "stucco-js": "^0.3.4"
+    "stucco-js": "^0.4.1"
   },
   "files": [
     "dist"
