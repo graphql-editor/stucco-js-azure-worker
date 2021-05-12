@@ -39,7 +39,7 @@
   "dependencies": {
     "@azure/functions": "^1.0.3",
     "azure-functions-nodejs-worker": "git+https://github.com/graphql-editor/azure-functions-nodejs-worker.git#prepare-for-package-json",
-    "grpc": "^1.24.2",
+    "grpc": "^1.24.9",
     "minimist": "^1.2.0",
     "stucco-js": "^0.4.1"
   },
